@@ -1,0 +1,4 @@
+# gradlew se ejecuta en Linux (GitHub Actions, Render, Docker): siempre con LF
+/gradlew        text eol=lf
+*.bat           text eol=crlf
+*.jar           binary
