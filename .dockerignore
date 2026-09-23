@@ -1,0 +1,13 @@
+# Clase 24 - lo que NO se envia a Docker al construir la imagen.
+# Menos archivos = construye mas rapido y no se filtran secretos.
+# (Este archivo ya esta completo: solo copialo. Se explica en final/SOLUCION.md)
+# Ojo: build/ NO se ignora, porque el Dockerfile copia build/libs/*.jar
+.git
+.github
+.gradle
+.idea
+docs
+laboratorios
+.env
+*.log
+node_modules
