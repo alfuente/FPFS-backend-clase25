@@ -40,3 +40,5 @@ docker run -d --name shopeasy -p 8080:8080 --network fpfs-backend-clase25_defaul
 
 La red se llama como la carpeta del proyecto más `_default`; si no coincide, revísala con
 `docker network ls`. La API queda en http://localhost:8080/docs.
+
+Hola
